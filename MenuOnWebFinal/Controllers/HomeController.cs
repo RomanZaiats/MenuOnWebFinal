@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using DAL;
+using MenuOnWebFinal.Models;
 
 namespace MenuOnWebFinal.Controllers
 {
@@ -10,6 +12,14 @@ namespace MenuOnWebFinal.Controllers
     {
         public ActionResult Index()
         {
+            MenuOnWebContext db = new MenuOnWebContext();
+            List<ViewRecipe> recipes = new List<ViewRecipe>();
+            foreach (var item in db.Recipes)
+            {
+                recipes.Add((ViewRecipe)item);
+            }
+            ViewBag.Recipes = recipes;
+
             return View();
         }
 
