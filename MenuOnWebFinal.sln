@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuOnWebFinal", "MenuOnWebFinal\MenuOnWebFinal.csproj", "{97CAA49A-3399-44C4-B532-7C04A8FDBCBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuOnWebFinal.Tests", "MenuOnWebFinal.Tests\MenuOnWebFinal.Tests.csproj", "{B8995DDD-1301-478D-8248-0B5F39D0FA05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97CAA49A-3399-44C4-B532-7C04A8FDBCBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CAA49A-3399-44C4-B532-7C04A8FDBCBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CAA49A-3399-44C4-B532-7C04A8FDBCBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CAA49A-3399-44C4-B532-7C04A8FDBCBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8995DDD-1301-478D-8248-0B5F39D0FA05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8995DDD-1301-478D-8248-0B5F39D0FA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8995DDD-1301-478D-8248-0B5F39D0FA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8995DDD-1301-478D-8248-0B5F39D0FA05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
